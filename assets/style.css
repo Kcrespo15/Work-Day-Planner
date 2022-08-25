@@ -16,6 +16,7 @@ body {
   textarea:focus {
     outline: #000000;
   }
+
   
   .jumbotron {
     text-align: center;
