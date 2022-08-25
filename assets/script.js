@@ -52,9 +52,15 @@ $('.saveBtn').on('click' , function () {
 })
 
 
-$("#txtN9").val(localStorage.getItem('random'));
-$("#txtN10").val(localStorage.getItem('random'));
-
+$("#txtN9").val(localStorage.getItem("9"));
+$("#txtN10").val(localStorage.getItem("10"));
+$("#txtN11").val(localStorage.getItem("11"));
+$("#txt12").val(localStorage.getItem("12"));
+$("#txtN13").val(localStorage.getItem("13"));
+$("#txtN14").val(localStorage.getItem("14"));
+$("#txtN15").val(localStorage.getItem("15"));
+$("#txtN16").val(localStorage.getItem("16"));
+$("#txtN17").val(localStorage.getItem("17"));
 // call functions
 
 setInterval(displayTime);
